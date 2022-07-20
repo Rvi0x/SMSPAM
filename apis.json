@@ -1,0 +1,18 @@
+
+{
+    "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp":["POST",{"cellphone":"+98$PHONE"},2,"OK", null],
+    "https://core.gap.im/v1/user/add.json?mobile=+98$PHONE":["GET",null, 1, "OK", {"Host": "core.gap.im","accept": "application/json, text/plain, */*","x-version": "4.5.7","accept-language": "fa","user-agent": "Mozilla/5.0 (Linux; Android 9; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36","appversion": "web","origin": "https://web.gap.im","sec-fetch-site": "same-site","sec-fetch-mode": "cors","sec-fetch-dest": "empty","referer": "https://web.gap.im/","accept-encoding": "gzip, deflate, br"}],
+    "https://api.tapsi.cab/api/v2.2/user":["POST", {"credential":{"phoneNumber":"0$PHONE","role":"PASSENGER"},"otpOption":"SMS"}, 1, "OK", null],
+    "https://api.zarinplus.com/user/zarinpal-login":["POST", {"phone_number":"98$PHONE"}, 1, "OTP successfully sent to user", null],
+    "https://api.divar.ir/v5/auth/authenticate":["POST", {"phone":"$PHONE"}, 1, "CODE_SENT", null],
+    "https://api.torob.com/v4/user/phone/send-pin/?phone_number=0$PHONE":["GET", null, 1, "code sent", null],
+    "https://www.sheypoor.com/api/v10.0.0/auth/send":["POST",{"username":"0$PHONE"}, 1, "true", null ],
+    "https://api.digikala.com/v1/user/authenticate/":["POST", {"backUrl":"/","username":"0$PHONE","otp_call":false}, 1, "200", null],
+    "https://api.cafebazaar.ir/rest-v1/process/GetOtpTokenRequest":["POST", {"properties":{"language":1,"clientID":"z0vac07sqjbfm5nh2cilmr4bgksq4rl8","deviceID":"z0vac07sqjbfm5nh2cilmr4bgksq4rl8","clientVersion":"web"},"singleRequest":{"getOtpTokenRequest":{"username":"98$PHONE"}}}, 1, "200", null],
+    "https://data.tetherland.com/api/v4/user/login":["POST",{"mobile":"0$PHONE"}, 1, "Enter OTP", null],
+    "https://safarmarket.com/api/security/v1/user/is_phone_available?phone=0$PHONE":["GET", null, 1, "OK", null],
+    "https://ghasedak24.com/user/ajax_register":["POST", "username=0$PHONE", 1, "success", {"authority": "ghasedak24.com","accept": "application/json, text/javascript, */*; q=0.01","accept-language": "en-US,en;q=0.9","content-type": "application/x-www-form-urlencoded; charset=UTF-8","origin": "https://ghasedak24.com","referer": "https://ghasedak24.com/user/login","sec-fetch-dest": "empty","sec-fetch-mode": "cors","sec-fetch-site": "same-origin","sec-gpc": "1","user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36","x-requested-with": "XMLHttpRequest"}],
+    "https://ws.alibaba.ir/api/v3/account/mobile/otp":["POST", {"phoneNumber":"$PHONE"}, 1, "success\":true", null],
+    "https://flightio.com/bff/Authentication/CheckUserKey":["POST", {"userKey":"98-$PHONE","userKeyType":1}, 1, "isSuccessful\":true", null],
+    "https://gateway.trip.ir/api/registers":["POST", {"CellPhone":"0$PHONE"}, 1, "UserId", null]
+}
