@@ -11,9 +11,6 @@
 ### $PHONE can Be in headers too ###
 ### $PHONE allways starts with 9 ###
 
-
-from asyncio.log import logger
-from tkinter.messagebox import RETRY
 from src.spammer import Spammer
 from colorama import Fore, Style
 import json
