@@ -3,7 +3,7 @@ Python3.8*
 
 > ### installing requirements
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
